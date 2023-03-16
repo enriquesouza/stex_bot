@@ -1,0 +1,29 @@
+{
+  "name": "stex_bot",
+  "version": "1.0.0",
+  "description": "This bot is for the exchange STEX",
+  "main": "index.js",
+  "scripts": {
+    "start": "node stex_bc.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enriquesouza/stex_bot.git"
+  },
+  "author": "Enrique Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enriquesouza/stex_bot/issues"
+  },
+  "homepage": "https://github.com/enriquesouza/stex_bot#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "calc-percent": "^1.0.1",
+    "lodash": "^4.17.15",
+    "npjs-basic": "^1.0.6",
+    "random-js": "^2.1.0",
+    "redis": "^3.0.2",
+    "stocks-exchange-client": "^2.3.1"
+  }
+}
